@@ -117,6 +117,14 @@ nav ul a:hover {
   color: var(--color-text-muted);
 }
 
+.hero-photo {
+  display: block;
+  margin: 1.5rem auto 0;
+  max-width: min(450px, 80%);
+  height: auto;
+  border-radius: 40px;
+}
+
 /* ---- about section ---- */
 
 .about {
