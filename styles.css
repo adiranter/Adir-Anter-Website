@@ -120,7 +120,8 @@ nav ul a:hover {
 .hero-photo {
   display: block;
   margin: 1.5rem auto 0;
-  max-width: min(450px, 80%);
+  width: 100%;
+  max-width: 450px;
   height: auto;
   border-radius: 40px;
 }
