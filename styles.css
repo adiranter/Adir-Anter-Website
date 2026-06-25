@@ -358,6 +358,20 @@ nav ul a:hover {
   opacity: 0.85;
 }
 
+.form-status {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form-status.success {
+  color: #4caf50;
+}
+
+.form-status.error {
+  color: #e57373;
+}
+
 /* ---- footer ---- */
 
 footer {
