@@ -126,28 +126,32 @@ nav ul a:hover {
   border-radius: 40px;
 }
 
-/* ---- about section ---- */
+/* ---- text section ---- */
 
-.about {
+.text-section {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 1rem var(--spacing) 4rem;
   text-align: center;
 }
 
-.about h2 {
+.text-section h2 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
   color: var(--color-accent);
 }
 
-.about p {
+.text-section p {
   color: var(--color-text-muted);
   max-width: 150ch;
   margin: 0 auto;
 }
 
-.hear-link {
+.text-section p.str-stats {
+  color: var(--color-accent);
+}
+
+.link-button {
   display: inline-block;
   margin-top: 2rem;
   padding: 0.9rem 2.2rem;
@@ -160,7 +164,7 @@ nav ul a:hover {
   letter-spacing: 0.03em;
 }
 
-.hear-link:hover {
+.link-button:hover {
   background-color: var(--color-accent);
   color: var(--color-bg);
 }
